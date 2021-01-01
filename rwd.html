@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*reset的部分*/
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        img{
+            vertical-align: bottom;
+        }
+        .banner img{
+            width: 100%;
+        }
+
+        .item-group {
+            width: 100%;
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        .about .title {
+            margin: 0 0 20px;
+            background-color: #ffffaa;
+            padding: 10px 20px;
+        }
+
+        .title h2 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .title p {
+            font-size: 28px;
+        }
+
+        .about .item {
+            margin: 0 10px 20px;
+        }
+
+        .about .item .pic img {
+            width: 100%;
+        }
+
+        .item .text h3 {
+            font-size: 22px;
+        }
+
+        .service .wrap{
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #aaa;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        @media screen and (min-width: 768px) {
+            .item-group {
+                display: flex;
+            }
+
+            .service .item {
+                display: flex;
+            }
+
+            .service .pic {
+                width: 50%;
+                margin: 0px;
+                text-align: center;
+            }
+
+            .service .text {
+                width: 50%;
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <img src="https://picsum.photos/1400/500?random=16" alt="">
+    </div>
+
+    <div class="about">
+        <div class="wrap">
+            <div class="title">
+                <h2>關於我們</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, omnis!</p>
+            </div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic"><img src="https://picsum.photos/80/90?random=14" alt=""></div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> aliquam placeat illo odit
+                            consequuntur mollitia corporis quasi, vero consequatur culpa voluptatem ex sequi voluptates
+                            perferendis iste! Et, aliquam? Nemo, ad.
+                            Magni ipsum quasi delectus magnam, voluptatibus quam, ad at iste molestias in eaque alias
+                            aspernatur, minus nisi? Facere assumenda pariatur aliquid, vitae repellendus nisi minima
+                            sequi, voluptate, alias odio nditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/80/90?random=13" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium odio eius vero quaerat
+                            Facere, voluptas ut. Explicabo ipsum expedita est natus, dolore nam velit quaerat molestias
+                            non dolores suscipit sequi pariatur laboriosam recusandae voluptates, accusantium
+                            sse unde?rum doloremque ex repellenddelectus in laudantium suscipit molestias consequuntur!
+                            Blanditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic"><img src="https://picsum.photos/80/90/?random=12" alt=""></div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium odio eius vero quaerat
+                            Facere, voluptas ut. Explicabo ipsum expedita est natus, dolore nam velit quaerat molestias
+                            non dolores suscipit sequi pariatur laboriosam recusandae voluptates, accusantium
+                            sse unde?rum doloremque ex repellendudelectus in laudantium suscipit molestias consequuntur!
+                            Blanditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="service">
+        <div class="wrap">
+            <div class="title"></div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic"><img src="https://picsum.photos/300/200/?random=21" alt=""></div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium odio eius vero quaerat
+                            Facere, voluptas ut. Explicabo ipsum expedita est natus, dolore nam velit quaerat molestias
+                            tia eveniet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="about">
+        <div class="wrap">
+            <div class="title">
+                <h2>關於我們</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, omnis!</p>
+            </div>
+            <div class="item-group">
+                <div class="item">
+                    <div class="pic"><img src="https://picsum.photos/80/90?random=14" alt=""></div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> aliquam placeat illo odit
+                            consequuntur mollitia corporis quasi, vero consequatur culpa voluptatem ex sequi voluptates
+                            perferendis iste! Et, aliquam? Nemo, ad.
+                            Magni ipsum quasi delectus magnam, voluptatibus quam, ad at iste molestias in eaque alias
+                            aspernatur, minus nisi? Facere assumenda pariatur aliquid, vitae repellendus nisi minima
+                            sequi, voluptate, alias odio nditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic">
+                        <img src="https://picsum.photos/80/90?random=13" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium odio eius vero quaerat
+                            Facere, voluptas ut. Explicabo ipsum expedita est natus, dolore nam velit quaerat molestias
+                            non dolores suscipit sequi pariatur laboriosam recusandae voluptates, accusantium
+                            sse unde?rum doloremque ex repellenddelectus in laudantium suscipit molestias consequuntur!
+                            Blanditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic"><img src="https://picsum.photos/80/90/?random=12" alt=""></div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium odio eius vero quaerat
+                            Facere, voluptas ut. Explicabo ipsum expedita est natus, dolore nam velit quaerat molestias
+                            non dolores suscipit sequi pariatur laboriosam recusandae voluptates, accusantium
+                            sse unde?rum doloremque ex repellendudelectus in laudantium suscipit molestias consequuntur!
+                            Blanditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="pic"><img src="https://picsum.photos/80/90?random=14" alt=""></div>
+                    <div class="text">
+                        <h3>title</h3>
+                        <p> aliquam placeat illo oditconsequuntur mollitia corporis quasi, vero consequatur culpa
+                            voluptatem ex sequi voluptates
+                            perferendis iste! Et, aliquam? Nemo, ad.
+                            Magni ipsum quasi delectus magnam, voluptatibus quam, ad at iste molestias in eaque alias
+                            aspernatur, minus nisi? Facere assumenda pariatur aliquid, vitae repellendus nisi minima
+                            sequi, voluptate, alias odio nditiis, mollitia eveniet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            &copy; copyright 2020 by Nina
+        </div>
+</body>
+
+</html>
